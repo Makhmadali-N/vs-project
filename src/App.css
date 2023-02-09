@@ -1,0 +1,50 @@
+.App {
+  display: flex;
+}
+
+.wrapper-file {
+  width: 300px;
+  max-height: 100%;
+  border: 1px solid rgb(211, 195, 195);
+  background-color: #212121;
+  color: rgb(199, 203, 206);
+}
+
+.file-name {
+  padding: 5px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.file-name:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.text {
+  width: 99.5%;
+  min-height: 93.5%;
+  background-color: #212121;
+  color: #fff;
+}
+
+.choose {
+  width: 99%;
+}
+
+.wrapper-tabs {
+  width: 100%;
+  height: 35px;
+  background-color: #212121;
+  color: #fff;
+}
+
+.text-wrap {
+  width: 100%;
+  height: 100vh;
+}
+
+p {
+  margin: 0;
+}
